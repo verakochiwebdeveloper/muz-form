@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="image-upload">
+      <h2>Загрузка изображений</h2>
+      <form id="upload-form">
+        <label for="image-files">Выберите изображения:</label>
+        <input type="file" id="image-files" name="image-files[]" multiple required>
+        <button type="submit">Загрузить</button>
+      </form>
+      <div id="image-preview"></div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
